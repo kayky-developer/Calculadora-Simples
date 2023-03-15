@@ -1,0 +1,38 @@
+<body>
+    <link rel="stylesheet" href="style.css">    
+    <div class="calculator">
+        <input type="text" id="result" readonly>
+        <table>
+            <tr>
+                <td><button class="number" onclick="handleClick(7)">7</button></td>
+                <td><button class="number" onclick="handleClick(8)">8</button></td>
+                <td><button class="number" onclick="handleClick(9)">9</button></td>
+                <td><button class="orange" onclick="handleClick('/')">÷</button></td>
+            </tr>
+            <tr>
+                <td><button class="number" onclick="handleClick(4)">4</button></td>
+                <td><button class="number" onclick="handleClick(5)">5</button></td>
+                <td><button class="number" onclick="handleClick(6)">6</button></td>
+                <td><button class="orange" onclick="handleClick('*')">x</button></td>
+            </tr>
+            <tr>
+                <td><button class=" number" onclick="handleClick(1)">1</button></td>
+                <td><button class="number" onclick="handleClick(2)">2</button></td>
+                <td><button class="number" onclick="handleClick(3)">3</button></td>
+                <td><button class="orange"" onclick=" handleClick('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="number" onclick="handleClick(0)">0</button></td>
+                <td><button class="number" onclick="handleClick('.')">.</button></td>
+                <td><button class="number" onclick="clearResult()">C</button></td>
+                <td><button class="orange" onclick="handleClick('+')">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="4"><button class="green" onclick="calculate()">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">&copy 2023 Direitos de privacidade<p>by: kay</p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
